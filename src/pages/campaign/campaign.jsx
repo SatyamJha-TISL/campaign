@@ -17,6 +17,7 @@ const Campaign = () => {
     return (
         <div className="campaign-container">
 
+
             <div className="campaign-container__wrapper">
                 <div className="campaign-container__wrapper__top">
                     <FontAwesomeIcon icon={faArrowLeft} beat onClick={() => navigate("/")} />
