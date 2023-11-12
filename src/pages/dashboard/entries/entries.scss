@@ -1,0 +1,33 @@
+@import "../../../partials/variables.scss";
+
+
+.entries-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5rem 0;
+
+
+    @media(max-width:768px) {}
+
+    &__item {
+        font-size: 1.5rem;
+        background-color: $color-button;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 1rem;
+        cursor: pointer;
+        min-width: 30rem;
+        color: $color-white;
+
+        &__name,
+        &__date {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+    }
+}

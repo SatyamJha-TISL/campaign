@@ -1,0 +1,27 @@
+@import "../../partials/variables.scss";
+
+.input-wrapper {
+
+    margin-bottom: 1.5rem;
+
+
+    .label {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input {
+        width: 100%;
+        padding: 1.4rem;
+        border: 1px solid $input-border;
+        border-radius: 0.3rem;
+        outline: none;
+
+        &:focus,
+        :hover,
+        :focus-visible {
+            border: 1px solid #7cd194
+        }
+
+    }
+}

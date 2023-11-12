@@ -1,0 +1,17 @@
+@import "../../partials/variables.scss";
+
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 13.4rem;
+    height: 4.4rem;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: $color-button;
+    color: $color-white ;
+    cursor: pointer;
+
+}
